@@ -1,0 +1,50 @@
+/*----  QUESTIONS ----*/
+#question {
+  display: inline-block;
+  margin: 0.4em 0 0 0;
+  padding: 0.2em 1em;
+}
+#question a {
+    text-decoration: none;
+}
+#question img {
+    border: none;
+}
+#question ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#question li {
+    float: left;
+    padding-bottom: 3px;
+}
+
+/*----  ANSWERS ----*/
+#answer {
+   display: list-item;
+   margin: 0.4em 0 0 0;
+   padding: 0.2em 0.5em;
+}
+#answer a {
+    text-decoration: none;
+}
+#answer img {
+    border: solid;
+}
+#answer ul {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+#answer li {
+   padding-top:2px;
+   padding-bottom:2px;
+}
+#answer img:hover {
+   background: rgba(255,255,255,0.09);
+}
+#answer:active {
+  position: relative;
+  top: 5px;
+}
